@@ -1,8 +1,31 @@
-# React + Vite
+# Responsive Matrix App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A simple React.js app with a responsive 3x3 grid. Click boxes to change their color to green. Clicking the last box changes all clicked boxes to orange in the order of clicks.
 
-Currently, two official plugins are available:
+## Features
+- Interactive 3x3 matrix.
+- Sequential color transformations.
+- Fully responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React.js
+- Tailwind CSS
+
+## Usage
+1. Clone the repo:
+   ```bash
+   git clone <repo-link>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the app:
+   ```bash
+   npm start
+   ```
+
+## Contact
+- **Name**: Satyam Kumar
+- **Email**: [satyammjha0@gmail.com](mailto:satyammjha0@gmail.com)
