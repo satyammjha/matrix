@@ -15,7 +15,7 @@ A simple React.js app with a responsive 3x3 grid. Click boxes to change their co
 ## Usage
 1. Clone the repo:
    ```bash
-   git clone <repo-link>
+   git clone https://github.com/satyammjha/matrix
    ```
 2. Install dependencies:
    ```bash
