@@ -30,7 +30,7 @@ const Header = () => {
             LinkedIn
           </a>
           <a
-            href="https://github.com/your-github-profile"
+            href="https://github.com/satyammjha/matrix"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 underline hover:text-blue-700 text-sm md:text-base"
