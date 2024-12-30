@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Box from "./Box"
+import Box from "./Box";
 
 const Grid = () => {
     const defaultColors = Array(9).fill("bg-white");
@@ -17,7 +17,7 @@ const Grid = () => {
 
         if (index === 8) {
             setTimeout(() => {
-                clickOrder.forEach((boxIndex, delay) => {
+                clickOrder.concat(index).forEach((boxIndex, delay) => {
                     setTimeout(() => {
                         updatedColors[boxIndex] = "bg-orange-500";
                         setBoxColors([...updatedColors]);
